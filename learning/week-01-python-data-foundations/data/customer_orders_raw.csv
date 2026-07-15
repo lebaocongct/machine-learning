@@ -1,0 +1,54 @@
+Order ID,Order Date,Customer ID,Product,Category,Quantity,Unit Price,Discount Pct,Region,Payment Method
+O001,2026-06-01,C001,Wireless Mouse,Electronics,2,25.50,0,Hanoi,Card
+O002,02/06/2026,C002,Mechanical Keyboard, electronics ,1,80.00,5,Ha Noi,cash
+O003,2026/06/03,C003,Desk Lamp,Home,1,32.75,10,HCM,E-wallet
+O004,"June 4, 2026",C004,Notebook,Office,5,4.50,,Da Nang,CARD
+O005,05-06-2026,C005,USB-C Hub,Electronics,2,45.00,15,TP.HCM,Bank transfer
+O006,2026-06-06,C006,Office Chair,Home,1,150.00,20,Ho Chi Minh City,card
+O007,07/06/2026,C007,T-Shirt,Fashion,3,12.50,0,Hanoi,cash
+O008,2026-06-08,C008,Monitor Stand,Office,1,65.00,5,HCM,ewallet
+O009,09/06/2026,C009,Webcam,Electronics,2,55.00,10,Da Nang,CARD
+O010,2026-06-10,C010,Backpack,Fashion,1,35.00,0,Ha Noi,cash
+O010,2026-06-10,C010,Backpack,fashion ,1,35.00,0,Hanoi,Cash
+O011,11/06/2026,C011,Water Bottle,Home,4,9.50,,Ho Chi Minh,e-wallet
+O012,2026-06-12,C012,Printer Paper,Office,10,6.25,5,Danang,bank transfer
+O013,13/06/2026,C013,Bluetooth Speaker,Electronics,1,60.00,0,HCMC,card
+O014,2026/06/14,C014,Jeans,Fashion,2,28.00,10,Hanoi,cash
+O015,15/06/2026,,Desk Organizer,Office,1,18.00,0,HCM,card
+O016,2026-06-16,C016,Air Purifier,Home,1,120.00,15,Da Nang,bank transfer
+O017,17/06/2026,C017,HDMI Cable,Electronics,-1,8.00,0,Ha Noi,cash
+O018,2026-06-18,C018,Pen Set,Office,two,7.50,0,Hanoi,card
+O019,19/06/2026,C019,Socks,Fashion,5,free,0,HCM,cash
+O020,2026-13-01,C020,Fan,Home,1,45.00,0,Da Nang,card
+O021,20/06/2026,C021,Phone Case,electronics,2,15.00,120,HCMC,e-wallet
+O022,2026-06-20,C022,,Unknown,1,10.00,0,Hanoi,cash
+O023,20/06/2026,C023,Stapler,Office,1,11.00,,Ha Noi,card
+O024,2026-06-19,C024,Running Shoes,Fashion,1,70.00,10,HCM,Bank Transfer
+O025,"June 18, 2026",C025,Smart Plug,Electronics,3,22.00,5,Ho Chi Minh City,e-wallet
+O026,2026-06-17,C999,Book Light,Home,2,14.00,0,Hanoi,card
+O027,16/06/2026,C001,Mouse Pad,Office,2,6.00,0,Ha Noi,cash
+O028,2026/06/15,C002,Power Bank,Electronics,1,40.00,5,HCMC,card
+O029,14/06/2026,C003,Hoodie,Fashion,1,42.00,10,Hanoi,cash
+O030,2026-06-13,C004,Coffee Mug,Home,2,13.00,0,Da Nang,e-wallet
+O031,12/06/2026,C005,Cable Clips,Office,6,2.50,,HCM,card
+O032,2026-06-11,C006,Laptop Sleeve,Fashion,1,24.00,5,Ho Chi Minh,bank transfer
+O033,10/06/2026,C007,Extension Cord,electronics,2,19.00,0,Ha Noi,cash
+O034,2026-06-09,C008,Wall Clock,Home,1,27.50,10,Hanoi,card
+O035,08/06/2026,C009,Highlighter,Office,4,3.00,0,Da Nang,e-wallet
+O036,2026-06-07,C010,Earbuds,Electronics,1,75.00,15,HCM,CARD
+O037,06/06/2026,C011,Cap,Fashion,2,16.00,5,Hanoi,cash
+O038,2026-06-05,C012,Cushion,Home,2,20.00,,Ho Chi Minh,card
+O039,04/06/2026,C013,Scissors,Office,1,5.50,0,Da Nang,cash
+O040,2026-06-03,C014,Smart Bulb,Electronics,4,18.00,10,HCMC,e-wallet
+ O041 ,02/06/2026,C016,Wallet,fashion,1,22.00,0,Ha Noi,cash
+O042,2026-06-01,C017,Shelf,Home,1,90.00,5,HCM,Bank Transfer
+O043,2026-06-01,C018,Paper Clips,Office,10,1.25,0,Hanoi,card
+O044,01/06/2026,C019,Tablet Stand,Electronics,2,30.00,10,Da Nang,e-wallet
+O045,2026-06-02,C020,Scarf,Fashion,1,18.00,,HCMC,cash
+O046,bad-date,C021,Storage Box,Home,3,12.00,0,Ha Noi,card
+O047,2026-06-02,C022,Label Maker,Office,1,35.00,-5,Hanoi,card
+O048,03/06/2026,C023,Charger,electronics,2,20.00,0,HCM,e-wallet
+O049,2026-06-04,C024,Blouse,Fashion,2,26.00,5,Da Nang,cash
+O050,05/06/2026,C025,Kettle,Home,1,38.00,0,Ho Chi Minh,card
+,2026-06-05,C001,Eraser,Office,3,1.00,0,Hanoi,cash
+

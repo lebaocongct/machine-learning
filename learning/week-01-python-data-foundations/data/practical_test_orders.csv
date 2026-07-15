@@ -1,0 +1,17 @@
+Order ID,Order Date,Customer ID,Product,Category,Quantity,Unit Price,Discount Pct,Region,Payment Method
+T001,2026-07-01,C001,Mouse,Electronics,2,20.00,0,Hanoi,card
+T002,02/07/2026,C002,Keyboard, electronics ,1,50.00,10,HCM,CARD
+T003,2026/07/03,C003,Lamp,Home,2,30.00,,Da Nang,e-wallet
+T004,"July 4, 2026",C004,Notebook,Office,4,5.00,5,Ha Noi,cash
+T005,05-07-2026,C005,Backpack,Fashion,1,40.00,0,HCMC,bank transfer
+T005,05-07-2026,C005,Backpack,Fashion,1,40.00,0,HCMC,bank transfer
+T006,2026-07-06,,Bottle,Home,2,10.00,0,Hanoi,card
+T007,07/07/2026,C007,Cable,Electronics,zero,8.00,0,HCM,cash
+T008,bad-date,C008,Chair,Home,1,100.00,15,Da Nang,card
+T009,2026-07-09,C009,T-Shirt,Fashion,3,12.00,5,Ha Noi,e-wallet
+T010,10/07/2026,C010,Paper,Office,10,2.00,0,Hanoi,cash
+T011,2026-07-11,C011,Webcam,Electronics,1,60.00,110,HCMC,card
+T012,12/07/2026,C012,Shelf,Home,1,80.00,20,Da Nang,bank transfer
+T013,2026-07-13,C013,Pen,Office,5,1.50,,Hanoi,cash
+T014,14/07/2026,C999,Cap,Fashion,2,15.00,0,HCM,e-wallet
+

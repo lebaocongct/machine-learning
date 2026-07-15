@@ -1,0 +1,57 @@
+{
+  "single_feature_regression.csv": {
+    "seed": 20260715,
+    "rows": 80,
+    "target": "y",
+    "true_intercept": 4.0,
+    "true_coefficients": {
+      "x": 3.2
+    },
+    "noise_std": 0.8
+  },
+  "housing_regression.csv": {
+    "seed": 20260716,
+    "rows": 160,
+    "target": "price_thousand",
+    "features": [
+      "area_sqm",
+      "bedrooms",
+      "age_years",
+      "distance_km",
+      "energy_score"
+    ],
+    "true_intercept": 35.0,
+    "true_coefficients": {
+      "area_sqm": 2.4,
+      "bedrooms": 18.0,
+      "age_years": -0.9,
+      "distance_km": -2.2,
+      "energy_score": 0.8
+    },
+    "noise_std": 12.0,
+    "units": {
+      "price_thousand": "thousand currency units",
+      "area_sqm": "square meters",
+      "distance_km": "kilometers"
+    }
+  },
+  "practical_regression.csv": {
+    "seed": 20260717,
+    "rows": 90,
+    "target": "score",
+    "features": [
+      "study_hours",
+      "practice_tests",
+      "sleep_hours",
+      "absences"
+    ],
+    "true_intercept": 25.0,
+    "true_coefficients": {
+      "study_hours": 3.5,
+      "practice_tests": 1.6,
+      "sleep_hours": 2.0,
+      "absences": -1.8
+    },
+    "noise_std": 2.5
+  }
+}
