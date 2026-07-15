@@ -1,0 +1,36 @@
+{
+  "scenario_cards.csv": {
+    "rows": 8,
+    "purpose": "problem framing and ML suitability exercises",
+    "expected_task_types": {
+      "S01": "classification",
+      "S02": "regression",
+      "S03": "clustering",
+      "S04": "regression",
+      "S05": "non_ml_rule_engine",
+      "S06": "generation",
+      "S07": "not_ready_no_action",
+      "S08": "ranking"
+    }
+  },
+  "support_triage.csv": {
+    "seed": 20260721,
+    "rows": 720,
+    "target": "escalated_within_48h",
+    "prediction_time": "ticket creation after message parsing",
+    "baseline_score": "triage_risk_score",
+    "false_positive_cost": 10.0,
+    "false_negative_cost": 200.0,
+    "split": "chronological 70/15/15"
+  },
+  "fraud_review.csv": {
+    "seed": 20260722,
+    "rows": 900,
+    "target": "confirmed_fraud",
+    "prediction_time": "transaction authorization",
+    "baseline_score": "heuristic_risk_score",
+    "false_positive_cost": 8.0,
+    "false_negative_cost": 300.0,
+    "split": "chronological 70/15/15"
+  }
+}

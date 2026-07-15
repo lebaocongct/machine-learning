@@ -1,0 +1,14 @@
+feature_name,source_stage,available_offset_hours,intended_for_model,notes
+channel,ticket_created,0.0,True,request channel
+customer_tier,ticket_created,0.0,True,account snapshot
+message_length,ticket_created,0.0,True,message metadata
+previous_tickets_30d,ticket_created,0.0,True,past-only aggregate
+account_age_days,ticket_created,0.0,True,account snapshot
+sentiment_score,ticket_created,0.05,True,computed after message arrives
+billing_keyword,ticket_created,0.05,True,computed after message arrives
+outage_active,ticket_created,0.0,True,operations snapshot
+triage_risk_score,ticket_created,0.1,False,existing heuristic baseline
+escalated_within_48h,label_generation,48.0,False,target label
+resolution_hours,post_outcome,72.0,True,not known at triage
+final_satisfaction,post_outcome,96.0,True,survey after resolution
+manager_override,post_outcome,24.0,True,decision after triage

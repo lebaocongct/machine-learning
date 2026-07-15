@@ -1,0 +1,9 @@
+scenario_id,title,non_ml_goal,decision,prediction_unit,prediction_time,proposed_target,target_kind,labels_available,actionable,latency_requirement
+S01,Support ticket routing,Route urgent tickets to a specialist queue before first response,Specialist queue or standard queue,One newly created ticket,Ticket creation,Escalated within 48 hours,binary,True,True,under 500 ms
+S02,Delivery duration estimate,Show customers an estimated delivery duration at checkout,Display an ETA and choose a delivery promise band,One checkout order,Checkout confirmation,Delivery duration in hours,numeric,True,True,under 200 ms
+S03,Customer discovery,Discover groups of customers with similar usage patterns,Choose segments for qualitative research,One active customer-month,Monthly analysis job,No predefined label,clusters,False,True,overnight batch
+S04,Inventory replenishment,Reduce stockouts without excessive inventory,How many units to replenish for each store-SKU,One store-SKU-day,Daily at 02:00,Units demanded over the next 7 days,numeric,True,True,2-hour batch window
+S05,Invoice tax calculation,Calculate tax from jurisdiction and product rules,Tax amount to charge,One invoice line,Invoice creation,Tax amount,numeric,True,True,under 100 ms
+S06,Product description drafting,Draft a product description from structured attributes,"Human editor accepts, edits, or rejects a draft",One product listing,Catalog authoring,New text content,generated_content,False,True,under 10 seconds
+S07,Unused dashboard prediction,Predict a satisfaction score for reporting,No product or operational action defined,One customer-week,Weekly reporting,Satisfaction score,numeric,True,False,overnight batch
+S08,Search result ordering,Order results so relevant products appear first,Which items occupy top result positions,One query-item pair,Search request,Relevance score/order,ordered_list,True,True,under 80 ms

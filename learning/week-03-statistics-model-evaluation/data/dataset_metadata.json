@@ -1,0 +1,29 @@
+{
+  "skewed_population.csv": {
+    "seed": 20260718,
+    "rows": 5000,
+    "population_role": "finite population for sampling experiments",
+    "spend_distribution": "segment-conditioned lognormal",
+    "id_column": "customer_id"
+  },
+  "nonlinear_regression.csv": {
+    "seed": 20260719,
+    "rows": 300,
+    "target": "y",
+    "features": [
+      "x"
+    ],
+    "noise_std": 1.15,
+    "signal": "2 + 1.2*x - 0.9*x^2 + 0.18*x^3 + 2*sin(1.5*x)"
+  },
+  "practical_model_selection.csv": {
+    "seed": 20260720,
+    "rows": 260,
+    "target": "y",
+    "allowed_model_feature": "x",
+    "analysis_only_feature": "sensor_quality",
+    "forbidden_feature": "post_event_target_proxy",
+    "forbidden_reason": "measured after the target event; direct target leakage",
+    "noise": "heteroscedastic by sensor_quality"
+  }
+}

@@ -1,0 +1,3 @@
+feature_name,description,source_stage,available_offset_hours,intended_for_model,owner,online_offline_parity,evidence
+example_feature,REPLACE_ME,pre_decision,0,true,REPLACE_ME,unknown,REPLACE_ME
+

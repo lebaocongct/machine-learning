@@ -1,0 +1,12 @@
+{
+  "unit_of_prediction": "REPLACE_ME",
+  "prediction_time": "REPLACE_ME",
+  "target_name": "REPLACE_ME",
+  "target_definition": "REPLACE_ME",
+  "target_window_start_hours": 0,
+  "target_window_end_hours": 24,
+  "output_type": "binary",
+  "latency_sla_ms": 1000,
+  "owner": "REPLACE_ME"
+}
+

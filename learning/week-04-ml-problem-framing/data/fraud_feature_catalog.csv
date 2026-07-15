@@ -1,0 +1,12 @@
+feature_name,source_stage,available_offset_hours,intended_for_model,notes
+amount,authorization,0.0,True,transaction request
+account_age_days,authorization,0.0,True,account snapshot
+velocity_1h,authorization,0.0,True,past-only aggregate
+country_risk,authorization,0.0,True,country lookup
+device_trust,authorization,0.0,True,device service snapshot
+card_present,authorization,0.0,True,transaction request
+heuristic_risk_score,authorization,0.02,False,existing baseline
+confirmed_fraud,label_generation,720.0,False,target after investigation
+chargeback_amount,post_outcome,1440.0,True,known after chargeback
+investigation_code,post_outcome,720.0,True,analyst conclusion
+analyst_notes_length,post_outcome,720.0,True,created during investigation

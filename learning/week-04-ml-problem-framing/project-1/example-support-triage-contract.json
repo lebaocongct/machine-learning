@@ -1,0 +1,12 @@
+{
+  "unit_of_prediction": "one newly created support ticket",
+  "prediction_time": "after initial message parsing and before queue assignment",
+  "target_name": "escalated_within_48h",
+  "target_definition": "1 if a manager-confirmed escalation occurs within 48 hours of ticket creation; otherwise 0",
+  "target_window_start_hours": 0,
+  "target_window_end_hours": 48,
+  "output_type": "binary",
+  "latency_sla_ms": 500,
+  "owner": "Support Operations Manager"
+}
+
